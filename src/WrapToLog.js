@@ -13,7 +13,7 @@ export default (WrappedComponent) => {
       this.setState({
         data: {
           name: 'lzw',
-          age: 18
+          age: 19
         }
       });
       console.log(1);
