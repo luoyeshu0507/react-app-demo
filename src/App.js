@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Star from './Star';
 import Comment from './Comment';
 import UserInfo from './UserInfo';
+import Context from './Context';
+import Context2 from './Context2';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +21,8 @@ class App extends Component {
         </p>
         <Comment/>
         <UserInfo/>
+        <Context/>
+        <Context2/>
       </div>
     );
   }
