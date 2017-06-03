@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import Star from './Star';
 import Comment from './Comment';
+import UserInfo from './UserInfo';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Comment/>
+        <UserInfo/>
       </div>
     );
   }
